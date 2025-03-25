@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Père Goriot by Honoré de Balzac</title>
+    <style>
+ body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-image: url('https://clavedelibros.com/wp-content/uploads/2019/11/tratado-vida-elegante-honore-balzac.png');
+    background-position: right;
+    background-size: cover;
+    height: 120px;
+    /* Remove height to allow dynamic adjustment */
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+    width: 120px;
+    background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply blur effect to the background */
+    border-radius: 10px;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+.content-section {
+    margin-bottom: 20px;
+}
+
+.content-section p {
+    line-height: 1.6;
+}
+
+/* Container for content-section1 */
+.content-section1 {
+    position: relative;
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 20px;
+    background-color: #d4d4d4;
+}
+
+.content-section1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Background gradient */
+.content-section1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, #d7fff8, #6aceff);
+    z-index: -1;
+    filter: blur(15px);
+}
+
+/* Content styling for content-section1 */
+.content-section1 .content {
+    padding: 40px;
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.content-section1 .content h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.content-section1 .content p {
+    font-size: 1.1rem;
+    color: #fff;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.content-section1 .content .cta-button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.content-section1 .content .cta-button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Grid Container Styling */
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns, each takes equal space */
+    gap: 10px; /* Space between items */
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    border-radius: 10px;
+    position: center;
+}
+
+.vepra {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.vepra img {
+    width: 100%;
+    height: 80%; /* Use 100% to make the image square */
+    object-fit: cover; /* Ensures the image covers the entire container */
+}
+
+.vepra h3 {
+    margin: 10px 0;
+}
+
+.vepra p {
+    margin: 0;
+    padding: 10px;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+    position: sticky; /* Stick to the top of the page */
+    top: 0; /* Keep it at the top */
+    z-index: 1000; /* Ensure it stays on top of other content */
+    width: 100%; /* Full width of the page */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for visibility */
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: underline;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff8c00; /* Change color on hover */
+    text-decoration: none; /* Optionally, remove underline on hover */
+}
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Honoré de Balzac</h1>
+    <p></p>
+</header>
+
+<nav>
+    <a href="programimatura.html">Progami Matura</a>
+    <a href="#Infoeautorit">Jeta e autorit</a>
+    <a href="#Epoka">Epoka</a>
+    <a href="#Krijimtaria">Krijimtaria</a>
+    <a href="#KomediaNjerzore">Komedia Njerezore </a>
+</nav>
+<main>
+    <section class="content-section" id="Infoeautorit">
+        <h2>Jeta e autorit</h2>
+        <p><strong>Honore de Balzak</strong>
+ lindi më 20 maj 1799 në Tours, Francë.Ai ishte djali i një familje të pasur, por prindërit e tij, sidomos babai, kishin shumë mundime për të mbajtur nivelin e lartë të jetesës. Balzak u edukua për herë të parë nëpër shkolla fetare, por më pas studionte në universitetin e Parisit. Zgjodhi fillimisht të vazhdonte juridikun, por duke u magjepsur pas ndikimit të letërsisë, vendos të largohet nga universiteti për të ndjekur pasionin e tij.
+<p>Duke u përpjekur të ndërtonte një karrierë si shkrimtar, ai pati një periudhë të vështirë financiare dhe profesionale. Provoi të botojë romane dhe shkrime të tjera, të merrej me disa biznese që dështuan, duke u përballuar kështu me borxhe të mëdha.</p>
+<p>Megjithatë, ai vazhdoi të shkruante dhe të zhvillonte idetë e tij për "Komedia njerëzore"<i>(La Comédie Humaine)</i>, një projekt ambicioz që synonte të jepte një pasqyrë të plotë të jetës njerëzore. Ky cikël i përbërë nga novela dhe romane i jep lexuesit një pamje të thellë të shoqërisë franceze, ku përfshihen fshatarët, aristokratët, borgjezët, dhe ata të varfër, duke ilustruar natyrën njerëzore dhe konflikte sociale, pasiguri, lakmi dhe dashuri.</p>
+<p>
+Balzak kishte një disiplinë të jashtëzakonshme të punës, duke punuar shpesh deri në 18 orë në ditë, dhe duke u përpjekur të përfundonte çdo roman dhe novelë që kishte në mendje. Ai ishte gjithashtu i njohur për ndjekjen e detajeve dhe thellësinë e karaktereve të tij. Për Balzak, shkrimi ishte një angazhim i plotë dhe ai donte që "Komedia njerëzore" të përfaqësonte tërë jetën njerëzore, me anë të një rrëfimi që do të ishte po aq i gjerë dhe kompleks sa vetë shoqëria.
+</p><p>Pavarësisht punës së palodhur dhe pasionit të tij për shkrimin, Balzak pati një jetë të shkurtër. Ai vdiq më 18 gusht 1850, në moshën 51-vjeçare, për shkak të një infarkti. Pas vdekjes, veprat e tij që përfaqësojnë një panoramë të pasur dhe të thellë të jetës sociale dhe politike të Francës së shekullit të XIX, morën vlerësim të madh dhe ndikuan shumë në letërsinë evropiane, veçanërisht në stilin realist që karakterizonte këtë shekull. Shkrimtarët pas tij, përfshirë Gustave Flaubert dhe Marcel Proust, morën ndikim të thellë nga pasuria e veprave të Balzakut.  
+</p>
+    </section>
+     <section class="content-section" id="Epoka">
+       <h2>Epoka</h2>
+       <p><strong>Epoka</strong> në të cilën ka shkruar Balzak është e shënuar nga pasojat e Revolucionit
+Francez dhe periudhës napoleoniane, duke kaluar në periudhën e
+Restaurimit(1819). Pas rënies së Napoleonit dhe rikthimit të monarkisë së
+Burbonëve, Franca ishte një shoqëri e tensionuar dhe e pasigurt, ku struktura
+klasore kishte kaluar në një fazë të re. Aristokracia kishte humbur fuqinë, ndërsa
+borgjezia, e pasuruar nga Revolucioni, po përpiqej të përvetësonte pushtetin, por
+pa përvojë politike.</p>
+<p>Në këtë periudhë, <b>paraja</b> kishte marrë një rol të madh, duke ndikuar jo vetëm
+në aspektin material, por edhe në moralin dhe sjelljen e individëve. Balzak e
+shihte këtë si një shoqëri të pasigurt dhe të tensionuar, ku përplasja mes pasurisë
+dhe vlerave tradicionale aristokratike krijonte një <b>ankth</b> të thellë.</p>
+<p>Balzak kritikonte se, ndërkohë që shoqëria po përjetonte zhvillime ekonomike,
+ajo po humbiste sensin e vlerave shpirtërore dhe morale. Ai paraqiste një
+shoqëri ku <b>pasuria dhe ambicia</b> po shtynin individët të sakrifikonin virtytet e
+mëparshme për të arritur sukses material. Ky portretizim pasqyron një periudhë
+të turbullt dhe të shkatërruar nga tensionet shoqërore, ku çdo individ ishte i
+lidhur ngushtë me rrethanat politike dhe ekonomike të kohës.
+ </p>
+  </section>
+   <section class="content-section" id="Krijimtaria">
+     <h2>Krijimtaria</h2>
+     <p><strong>Krijimtaria</strong> e Honoré de Balzakut është një pasqyrë e thellë dhe e gjallë e
+shoqërisë franceze të shekullit XIX, një periudhë e shenjuar nga pasiguria dhe
+përplasje të thella shoqërore. Balzak u bë një nga shkrimtarët më të njohur të
+realizmit të kohës dhe ndoshta më i rëndësishmi në krijimin e një panorame të
+gjerë të jetës sociale dhe politike të periudhës, duke portretizuar gjithçka nga
+aristokracia e vjetër deri tek borgjezia në rritje dhe të gjitha shtresat shoqërore
+në mes.</p>
+<p>Ai nuk shkroi thjesht për të treguar histori, por për <b>të përshkruar dinamikën</b> e
+shoqërisë dhe për të treguar se si individët janë të lidhur me historinë, kulturën
+dhe ekonominë e kohës së tyre. Në shkrimtarinë e Balzakut, gjithçka është e
+ndërlidhur – nga sjellja e personazheve te mënyra se si zhvillohen ngjarjet, që të
+gjitha ndodhin për shkak të ndikimit të fuqive shoqërore dhe politike.</p>
+<p>Balzak shikonte <b>shoqërinë si një arenë të luftës</b> mes klasave, ku pasuria dhe
+pushteti ishin ato që kontrollonin gjithçka. Ai kishte një <b>sens të thellë kritik
+ndaj moralit të shoqërisë</b>, duke shfaqur përplasjen mes vlerave të vjetra
+aristokratike dhe moralit të ri borgjez, i cili kishte si synim pasurinë dhe
+suksesin material. Për të, <b>shoqëria ishte e ndarë</b> dhe pa një drejtim të qartë,
+duke u zhvilluar me pasoja të thella për individët që përpiqeshin të përshtateshin
+ose të përfitonin nga ky ndryshim.</p>
+<p>Gjithashtu ai ishte një <b>observator i mprehtë i jetës shoqërore</b>, gjithmonë
+kishte sy të mprehtë për të kapur ndihmën dhe tensionet mes individëve dhe
+shtresave të ndryshme shoqërore. Ai krijoi një botë komplekse dhe të pasur, ku
+<b>personazhet janë të pajisur me ngjyrime dhe motivacione</b> që shprehin më
+shumë se vetëm një tipar të veçantë të karakterit, por reflektojnë tensionet e
+mëdha të kohës.</p>
+<p>Në një kohë kur shoqëria franceze po kalonte nga një periudhë pasigurie në një
+tjetër, Balzak shkruante duke analizuar thellë gjithçka, nga pasuritë e
+grumbulluara nga borgjezia deri te moraliteti i ndryshuar që pasqyronte
+zhvendosjen e vlerave tradicionale. Balzak kërkonte të <b>shpjegonte lidhjen e
+thellë mes individëve dhe epokës ku ata jetonin</b>, duke zbuluar se ata ishin të
+përcaktuar nga rrethanat e kohës së tyre.</p><p>Krijimtaria e Balzakut është një dëshmi e fuqisë së realizmit dhe
+ndjeshmërisë sociale, e cila ka ndikim të jashtëzakonshëm në mënyrën se si ne
+kuptojmë, interpretojmë dhe analizojmë shoqërinë e kohës së tij, dhe, po ashtu,
+përbën një bazë të rëndësishme për shkrimtarët që do të pasonin.</p>
+       
+     
+   <a href="Komedianjerezore.html" style="text-decoration: none; color: inherit;">
+      <section  class="content-section1" id="KomediaNjerzore">
+     
+        <h2>Komedia Njerëzore</h2>
+        <p><strong>Komedia Njerëzore</strong> e Honoré de Balzakut është një arritje e jashtëzakonshme e letërsisë botërore, një testament i thellë ndaj natyrës njerëzore. Ky cikël monumental përfshin 91 vepra, të cilat shërbejnë si një pasqyrë e thellë dhe e pakompromis e shoqërisë franceze të shekullit XIX. Çdo vepër tregon historinë e një periudhe, një klase shoqërore, ose një grupi individësh, duke ofruar një reflektim të pasur dhe të detajuar të natyrës njerëzore dhe mekanizmave të shoqërisë.<br>
+ 
+</p>
+ 
+    </section>
+    </a>
+    </main>

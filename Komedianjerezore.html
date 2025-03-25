@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>César Birotteau - Një Studim i Personazhit</title>
+    <style>
+        body {
+            font-family: Oswald;
+            background-color: #FFFFCC;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+       /* Centering the header content */
+header {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-image: url('https://miro.medium.com/v2/resize:fit:1400/1*6Jp3vJWe7VFlFHZ9WhSJng.jpeg');
+  background-position: center;
+  background-size: cover;
+  height: 120px; /* Full viewport height for centering */
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  justify-content: center; /* Vertically center content */
+  align-items: center; /* Horizontally center content */
+}
+
+header h1,
+header p {
+  margin: 10px 0; /* Margin to separate the h1 and p */
+  background: rgba(255, 255, 255, 0.3); /* Semi-transparent background */
+  backdrop-filter: blur(10px); /* Apply blur effect to the background */
+  border-radius: 10px;
+  width: 80%; /* Make the width responsive */
+  max-width: 500px; /* Maximum width */
+  padding: 10px; /* Padding to make text more readable */
+}
+
+header h1 {
+  font-size: 2rem; /* Larger font size for the title */
+}
+
+header p {
+  font-size: 1.1rem; /* Slightly smaller font size for the paragraph */
+}
+
+             
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for visibility */
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .section-header {
+          font-family: Arial;
+            font-size: 1.5rem;
+            cursor: pointer;
+            background-color: white;
+            color: black;
+            padding: 10px;
+            border: none;
+            width: 100%;
+            text-align: left;
+            border-radius: 5px;
+        }
+
+        .section-content {
+            display: none;
+            padding: 10px;
+            background-color: #f9f9f9;
+            margin-top: 10px;
+            border-left: 3px solid #007BFF;
+        }
+
+        .section-content p {
+            font-size: 1rem;
+        }
+       
+        .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns, each takes equal space */
+    gap: 10px; /* Space between items */
+    width: 100%;
+    padding: 20px;
+    height: auto;
+    border-radius: 10px;
+    position: center;
+}
+
+.vepra {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.vepra img {
+    width: 100%;
+    height: 80%; /* Use 100% to make the image square */
+    object-fit: cover; /* Ensures the image covers the entire container */
+}
+
+.vepra h3 {
+    margin: 10px 0;
+}
+
+.vepra p {
+    margin: 0;
+    padding: 10px;
+}
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Komedia Njerezore</h1>
+    <p>Nga Honoré de Balzak</p>
+</header>
+
+<nav>
+    <a href="#about">Komedia Njerëzore</a>
+    <a href="#story">Veçorite e stilit</a>
+    <a href="#legacy">Personazhi tipik</a>
+</nav>
+
+<section id="about">
+    <button class="section-header" onclick="toggleSection('about-content')">Komedia Njerëzore</button>
+    <div id="about-content" class="section-content">
+   <p></p>Komedia njerëzore e Honoré de Balzakut është një arritje e jashtëzakonshme e letërsisë botërore, një testament i thellë ndaj natyrës njerëzore. Ky cikël monumental përfshin 91 vepra, të cilat shërbejnë si një pasqyrë e thellë dhe e pakompromis e shoqërisë franceze të shekullit XIX. Çdo vepër tregon historinë e një periudhe, një klase shoqërore, ose një grupi individësh, duke ofruar një reflektim të pasur dhe të detajuar të natyrës njerëzore dhe mekanizmave të shoqërisë. Në këtë veprim, personazhet dhe ngjarjet lidhen ngushtë dhe janë të ndërlidhura për të krijuar një rrjet kompleks që pasqyron më mirë shoqërinë e shekullit XIX. Ky është një aspekt i rëndësishëm që ndihmon lexuesin të kuptojë që, megjithëse secila vepër është e pavarur, ato janë të lidhura dhe krijojnë një univers të tërë, të qëndrueshëm dhe të ndërthurur.</p>
+<p>Balzak është mjeshtër i portretizimit të pasioneve njerëzore, që shpesh janë të mbushura me kontradikta dhe tensione. Ai i shpalos ato në mënyrë të detajuar, duke ofruar një pasqyrë të pasur të lakmisë, dashurisë, ambicies dhe pasigurisë, që shpesh përzihen në një kaos të brendshëm. Balzak shikon individët si produkte të shoqërisë që i rrethon, dhe analizat e tij shkojnë përtej ndjenjave, duke menduar mbi rolin e strukturave shoqërore, pushtetit dhe pasurisë në formimin e jetës dhe veprimeve të njerëzve. Balzak përdor realizmin për të paraqitur një shoqëri të ngatërruar nga përçarjet klasore dhe ekonomike, dhe, si një kritik social, ai vë në dukje padrejtësitë dhe kontradiktat që shoqërojnë jetën e përditshme të individëve. Pasuria dhe fuqia shpesh bëhen mjetet që formojnë marrëdhëniet dhe destinimet, duke injoruar çdo ndjenjë të sinqertë.
+</p><p>Në "Komedia njerëzore", Balzak ka një qasje realiste që pasqyron ashpërsinë e jetës, duke përshkruar me saktësi dështimin, sakrificat dhe tragjeditë që shoqërojnë aspiratat e individëve. Ai nuk i sheh personazhet si të "mirë" apo "të këqinj", por si individë të përfshirë në një rrjet të pasioneve dhe dëshirave, që formohen nga shoqëria dhe rrethanat e tyre. Secila vepër është një studim i thellë i karaktereve dhe aspiratave të tyre, duke krijuar një univers ku çdo histori është pjesë e një komedie njerëzore, ku të gjithë janë aktorë të një drame që kurrë nuk mbaron.
+</p><p>Balzak tregon një vëmendje të jashtëzakonshme ndaj detajeve dhe ligjeve të jetës shoqërore, ndërthur pasione dhe dëshira të thella me një kritikë të ashpër ndaj shoqërisë dhe pasigurisë së jetës njerëzore. "La Comédie Humaine" është një spektakël i jetës, ku pasionet, ambiciet dhe gabimet janë aty për të tronditur lexuesin, duke krijuar një humor të hidhur që të bën të qeshësh ose të qash.
+</p><p>T’i thuash këtij projekt "komedi" është një ironi, sepse jeta është një lojë e madhe ku secili ka rolin e tij, dhe dështimet e njerëzve janë të pashmangshme, ndonëse shpesh janë të mbushura me egoizëm dhe papërgjegjshmëri. Balzak ka krijuar një spektakël ku aktorët janë të detyruar të luajnë rolet që ata vetë kanë zgjedhur, por pa ditur se gjithçka është pjesë e një loje që ata nuk mund ta fitojnë. Komedia njerëzore është një pasqyrë e njerëzve që përpiqen të arrijnë majat e shoqërisë, por gjithsesi bien, duke u përpjekur për diçka që është më shumë një iluzion sesa një realitet. Në fund, Balzak thotë: "Ky është spektakli që luani, dhe do të luani gjithmonë – pa rregulla, por gjithmonë të destinuar të pësoheni."
+</p>
+</div>
+</section>
+
+<section id="story">
+    <button class="section-header" onclick="toggleSection('story-content')">Veçorite e stilit</button>
+    <div id="story-content" class="section-content">
+        <p>
+<li><b>1. Stili proliks</b></li>
+<li>Përshkrime të detajuara: Balzak vlerësohet për përdorimin e stilit proliks, ku përshkrimet dhe hollësitë janë të pranishme në çdo pjesë të veprave të tij. Ky stil bën që lexuesi të jetë i kapur nga detajet që krijojnë një pasqyrë të gjallë dhe të thellë të jetës së personazheve dhe mjedisit.</li>
+<li>Mjeshtëria e detajit: Balzak është mjeshtër i detajeve, duke bërë që lexuesi të marrë një pamje të plotë të personazheve dhe rrethanave që i rrethojnë. Ai përdor përshkrime për të thelluar kuptimin e karaktereve dhe shoqërisë në të cilën ata jetojnë.</li>
+</p>
+
+<p>
+<li><b>2. Teknika përshkruese</b></li>
+<li>Përshkrimi i sendeve dhe karaktereve: Nëpërmjet përshkrimeve të objekteve dhe ambienteve, Balzak arrin të zhvillojë dhe të portretizojë karakteret e tij. Çdo send i përshkruar është një pasqyrë e karaktereve që i përdorin ato, duke krijuar një lidhje të ngushtë mes mjedisit dhe psikologjisë së personazheve.</li>
+<li>Përshkrimi si personifikim: Pavarësisht se objektet dhe sendet janë të përshkruara qartë dhe të parafytyrueshme, ato gjithashtu merrnin një dimension të thellë personifikues. Balzak arrin të bëjë që çdo detaj të transmetojë emocion dhe karakter të personazheve, duke sjellë një lidhje të ngushtë me shpirtin e individëve që i përdorin.</li>
+<li>Balancimi i realitetit dhe dramatizimit: Përshkrimet e tij janë të vërteta dhe të thella, por ato nganjëherë humbasin funksionin e thjeshtë tregues dhe shndërrohen në mënyra për të shpërfaqur emocionet dhe pasionet e personazheve.</li>
+</p.
+
+<p>
+<li><b>3. Mjeshtëria në ndërtimin e ngjarjes</b></li>
+<li>Pikëkulm dramatik: Balzak është i njohur për aftësinë për të udhëhequr ngjarjen drejt kulmeve dramatike, duke siguruar se ngjarjet zhvillohen natyrshëm për të çuar në kulmin e tensioneve.</li>
+<li>Monologje shpërthyese: Romanet e tij shpesh kanë monologje të fuqishme, të cilat reflektojnë pasionet dhe emocione të fuqishme të personazheve. Këto momente janë shpesh kulminante dhe krijojnë një energji të fortë dramatike.</li>
+</p>
+
+<p>
+<li><b>4. Karakteret dhe figura të pasura psikologjikisht</b></li>
+<li>Të pasura në psikologji: Balzak është mjeshtër në paraqitjen e psikologjisë së thellë të personazheve të tij. Ai i ndihmon lexuesit të kuptojnë motivet dhe shpirtin e personazheve, duke përdorur një gjuhë të pasur dhe të thellë për të zbuluar kompleksitetin e natyrës njerëzore.</li>
+</p>
+
+<p>
+<li><b>5. Teknika e prezantimit të personazheve</b></li>
+<li>Përshkrimi si teknikë e ndihmës për zhvillimin e karaktereve: Balzak përdor përshkrimin si një mënyrë të fortë për të prezantuar dhe zhvilluar personazhet. Ky teknikë është gjithashtu shumë e lidhur me realizmin, pasi ai shfaq individët në një shoqëri të caktuar dhe përpiqet të tregojë si ndikohen dhe modelohen nga kjo shoqëri.</li>
+<li>Përshkrimi si lidhje mes karakterit dhe shoqërisë: Balzak shikon shoqërinë si thelbësore për ekzistencën dhe zhvillimin e individit. Ai portretizon personazhet në lidhje të ngushta me mjedisin e tyre, dhe çdo veprim i individëve është i lidhur me rrethanat shoqërore që ata përballojnë.</li>
+</p>
+
+<p>
+<li><b>6. Struktura e romanit</b></li>
+<li>Struktura shumëfunksionale me linja paralele: Balzak shpesh përdor struktura të ndërlikuara, ku ngjarjet zhvillohen paralelisht në disa plane. Ky stil lejon krijimin e një kompozicioni të pasur, ku tema dhe ide të ndryshme ndërthuren në mënyrë të natyrshme.</li>
+<li>Përplasja e pasioneve dhe interesave: Romanet e tij shpesh përshkruajnë një përplasje të fortë mes pasioneve dhe interesave të personazheve, ku konflikti dhe tensioni janë të vazhdueshëm. Kjo përplasje është një element që mban lexuesin të angazhuar dhe që ndihmon në zhvillimin e ngjarjes.</li>
+</p>
+
+<p>
+<li><b>7. Dinamika e karaktereve dhe temave</b></li>
+<li>Rishfaqja e personazheve: Balzak ka një tendencë të përdorë personazhe që kthehen dhe rishfaqen nëpër romane të ndryshme, duke i lidhur ato me temat dhe idetë që ai i trajton vazhdimisht. Kjo ndihmon për të krijuar një univers letrar të ndërlikuar dhe të lidhur.</li>
+<li>Tema të përsëritura: Në shumë vepra, Balzak përsërit temat e pasurisë, pushtetit, dashurisë dhe përpjekjes për të arritur një status shoqëror më të lartë, duke ofruar një pasqyrë të detajuar të shoqërisë që ai përshkruan.</li>
+</p>
+
+<p>
+<li><b>8. Dialogu që Kthehet në Monolog</b></li>
+<li>Një nga elementet më të fuqishme të romanit është përdorimi i dialogut që shpesh kalon në monolog të brendshëm. Ky është një mjet i Balzakut për të theksuar luftën e brendshme të personazheve, sidomos të Xha Gorioit, i cili shpesh është i shtrirë në një formë vetë-reflektimi. Dialogu që kthehet në monolog përdoret si një mënyrë për të shprehur emocionet dhe pasionet që janë të fshehura nën sipërfaqe. Xha Gorioi, në çdo bisedë me bijat e tij, shpesh shprehet si një monolog të brendshëm që bëhet gjithnjë më i gjatë dhe më emocional, duke kaluar nga komunikimi me ta në një dialog vetjak, i cili përshkruan dhimbjen dhe zemërimin e tij.</li>
+</p>
+
+<p>
+  <li><b>9. Kontrasti dhe dramatizimi i jetës dhe artit</b></li>
+  <li>Kontrasti: tragjedi në jetë – komedi në art: Balzak shpesh përdor kontraste të forta, sidomos atë mes realitetit të ashpër dhe pasqyrës letrare të ngjarjeve. Ky kontrast krijon një tension të vazhdueshëm, duke përforcuar ndikimin dramatik të veprave të tij.</li>
+</p>
+   
+    </div>
+</section>
+
+<section id="legacy">
+    <button class="section-header" onclick="toggleSection('legacy-content')">Personazhi tipik</button>
+    <div id="legacy-content" class="section-content">
+        <p>Here you can describe the typical character in the work.</p>
+    </div>
+</section>
+
+<script>
+    function toggleSection(sectionId) {
+        var content = document.getElementById(sectionId);
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+    }
+   
+   
+</script>
+<section>
+        <div class="container">
+            <div class="vepra">
+                <a href="gobsek.html">
+                    <img src="https://alterabooks.com/wp-content/uploads/2024/11/7789995617631.jpg" alt="Vepra 1">
+                    </a>
+                    <h3>Fajdexhiu Gobsek</h3>
+               
+               
+            </div>
+            <div class="vepra">
+                <a href="#">
+                    <img src="https://maturashteterore.com/wp-content/uploads/2020/05/xha-gorioi.jpg" alt="Vepra 2">
+                    </a>
+                    <h3>Xha Gorio</h3>
+               
+               
+            </div>
+            <div class="vepra">
+                <a href="iluzionetehumbura.html">
+                    <img src="https://cloudfront.bukinist.al/18266/iluzionet-e-humbura.jpg" alt="Vepra 3">
+                    </a>
+                    <h3>Iluzionet e Humbura</h3>
+            </div>
+            <div class="vepra">
+                <a href="evgjenigrande.html">
+                    <img src="https://cloudfront.bukinist.al/13108/evgjeni-grande.jpg" alt="Vepra 4">
+                    </a>
+                    <h3>Evgjeni Grande</h3>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
